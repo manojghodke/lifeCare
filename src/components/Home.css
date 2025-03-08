@@ -1,0 +1,130 @@
+/* Home.css */
+
+.home-container {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  color: #333;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: white;
+  color: #007bff;
+  font-size: 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #0056b3;
+  color: white;
+}
+
+/* Features Section */
+.features {
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.features h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Health Tips */
+.health-tips {
+  background: #ffcc00;
+  padding: 40px 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #e3f2fd;
+  padding: 50px 20px;
+}
+
+.testimonials h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.testimonial-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+}

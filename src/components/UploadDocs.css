@@ -1,0 +1,55 @@
+.upload-docs {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.upload-docs h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.upload-docs input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.upload-docs button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.upload-docs button:hover {
+  background: #0056b3;
+}
+
+.upload-docs ul {
+  list-style: none;
+  padding: 0;
+}
+
+.upload-docs li {
+  margin-top: 10px;
+}
+
+.upload-docs a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.upload-docs a:hover {
+  text-decoration: underline;
+}

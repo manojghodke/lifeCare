@@ -1,0 +1,98 @@
+/* Main Container */
+.medicine-guide {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+/* Title */
+.medicine-guide-title {
+  color: #007bff;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Search Box */
+.medicine-search {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.medicine-search-input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 70%;
+}
+
+.medicine-search-input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.medicine-search-button {
+  width: 100px;
+  height: 44px;
+  padding: 12px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.medicine-search-button:hover {
+  background: #0056b3;
+}
+
+/* Error Message */
+.medicine-error {
+  color: red;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+/* Medicine Details Card */
+.medicine-card {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-left: 5px solid #007bff;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Medicine Name */
+.medicine-name {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Purpose */
+.medicine-purpose {
+  font-size: 16px;
+  color: #333;
+  margin: 5px 0;
+}
+
+/* Warnings */
+.medicine-warning {
+  font-size: 16px;
+  color: #333;
+  margin: 5px 0;
+}
+
+.medicine-card strong {
+  color: #007bff;
+}
