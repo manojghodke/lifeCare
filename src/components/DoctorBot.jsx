@@ -7,8 +7,8 @@ const DoctorBot = () => {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const apiKey =
-    "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";
+ const apiKey =
+    "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";
   const handleSend = async () => {
     if (input.trim() === "") return;
 
