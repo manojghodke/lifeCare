@@ -7,8 +7,9 @@ const DoctorBot = () => {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
 
- const apiKey =
-    "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";
+  const apiKey =
+    "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";
+
   const handleSend = async () => {
     if (input.trim() === "") return;
 
@@ -21,7 +22,7 @@ const DoctorBot = () => {
       const response = await axios.post(
         "https://openrouter.ai/api/v1/chat/completions",
         {
-          model: "google/gemini-2.0-flash-lite-preview-02-05:free",
+          model: "google/gemini-2.0-flash-thinking-exp:free",
           messages: [{ role: "user", content: input }],
         },
         {
