@@ -8,7 +8,7 @@ const DoctorBot = () => {
   const [loading, setLoading] = useState(false);
 
   const apiKey =
-    "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";
+    "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";
 
   const handleSend = async () => {
     if (input.trim() === "") return;
